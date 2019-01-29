@@ -1,6 +1,6 @@
-<div class="main-header fixed-top">
+<header class="main-header fixed-top">
 	<div class="container d-flex">
     {% include './header-nav.nunj' %}
     {% include './header-nav-social.nunj' %}
   </div>
-</div>
+</header>
