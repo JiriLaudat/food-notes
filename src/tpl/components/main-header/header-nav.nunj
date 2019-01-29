@@ -1,0 +1,11 @@
+<ul class="header-nav list-unstyled d-flex m-0">
+  <li class="header-nav__item">
+    <a href="#" class="header-nav__link">Main</a>
+  </li>
+  <li class="header-nav__item ml-4">
+    <a href="#" class="header-nav__link">About me</a>
+  </li>
+  <li class="header-nav__item ml-4">
+    <a href="#" class="header-nav__link">Receipts</a>
+  </li>
+</ul>

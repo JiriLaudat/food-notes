@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'bootstrap/bootstrap';
 @import 'base/*';
+@import '../../node_modules/sass-rem/rem';
 
 body {
   font-family: 'Roboto', $font-family-base;

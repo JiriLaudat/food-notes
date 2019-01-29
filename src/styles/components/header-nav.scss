@@ -1,0 +1,21 @@
+.header-nav {
+
+  &__link {
+    color: theme-color('font-color');
+
+    &:active, &:hover {
+      color: theme-color('font-hover-color');
+      text-decoration: none;
+    }
+  }
+
+  &__icon {
+    width: rem(20px);
+    height: rem(20px);
+    fill: theme-color('font-color');
+
+    &:hover {
+      fill: theme-color('font-hover-color');
+    }
+  }
+}
