@@ -1,5 +1,4 @@
 {% from "helpers/svg.nunj" import svg %}
-
 <ul class="header-nav d-flex ml-auto list-unstyled m-0">
   <li class="header-nav__item">
     <a href="#" class="header-nav__link mr-4">
