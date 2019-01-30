@@ -5,11 +5,14 @@
 {% set title = "SVG Icons" %}
 
 {% block content %}
+
+    {#
     <style>
         .icon-purple { fill: rebeccapurple; }
         .icon-blue { fill: darkblue; }
         .icon-maroon { fill: maroon; }
     </style>
+    #}
 
     <h1>SVG icons</h1>
     {# Icon from detault sprite (svg/sprites/icons) #}
@@ -18,5 +21,8 @@
 
     {# Icon from custom sprite #}
     {{ svg(sprite = "demo", "baby", "icon-maroon") }}
+
+    {{ svg("test-bulb", "icon-purple") }}
+
 
 {% endblock %}

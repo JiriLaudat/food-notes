@@ -11,14 +11,21 @@ $teal:    #20c997;
 $cyan:    #17a2b8;
 
 $theme-colors: (
-  primary: $teal,
+  primary:  #f2f2f2,
   secondary: $pink,
   success: $green,
   info: $cyan,
   warning: $yellow,
-  danger: $red
+  danger: $red,
+  font-color: #6e6e6e,
+  font-hover-color: #3ac0c7
 );
 
-@import '../../node_modules/bootstrap/scss/functions';
-@import '../../node_modules/bootstrap/scss/variables';
-@import '../../node_modules/bootstrap/scss/mixins';
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 980px
+);
+
+
