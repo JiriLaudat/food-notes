@@ -1,0 +1,13 @@
+.main-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background: purple url('../gfx/images/index-page-banner.png') no-repeat center;
+  background-size: cover;
+}
+
+.main-banner__title {
+  font-size: rem(72px);
+  color: theme-color('primary');
+}
