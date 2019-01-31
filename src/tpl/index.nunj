@@ -3,7 +3,7 @@
 {% set title = "Food Notes" %}
 
 {% block content %}
-  <div class="main-banner">
+  <div class="main-banner d-flex justify-content-center align-items-center" style="background-image: url('../gfx/images/index-page-banner.png')">
       <h1 class="main-banner__title">Food notes</h1>
   </div>
 {% endblock %}
