@@ -45,6 +45,9 @@
         {# </div> #}
     </main>
 
+    {# Footer #}
+    {% include 'components/footer.nunj' %}
+
     {# Scripts #}
     <script>
         var mockUrl = 'http://localhost:' + '{{ _mockPort }}';

@@ -1,0 +1,37 @@
+.footer-header {
+
+  &__link {
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__icon {
+    @include size(rem(20px));
+
+    fill: theme-color('light');
+  }
+}
+
+.footer-content {
+  overflow: hidden;
+}
+
+.footer-footer {
+
+  &__icon {
+    @include size(rem(20px));
+
+    fill: theme-color('light');
+  }
+
+  &__copyright {
+    font-size: rem(12px);
+  }
+
+  &__title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: rem(22px);
+  }
+}

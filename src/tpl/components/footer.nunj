@@ -1,0 +1,74 @@
+{% from "../helpers/svg.nunj" import svg %}
+
+<footer class="footer text-white bg-dark">
+
+  <div class="footer-header bg-light-blue">
+    <ul class="container list-unstyled d-flex justify-content-between my-0 py-3">
+      <li class="footer-header__item">
+        <a href="#" class="footer-header__link text-light">
+            {{ svg(sprite = "social-icons", "facebook", "footer-header__icon") }}
+            <span class="ml-2">Facebook</span>
+        </a>
+      </li>
+      <li class="footer-header__item">
+        <a href="#" class="footer-header__link text-light">
+          {{ svg(sprite = "social-icons", "instagram", "footer-header__icon") }}
+          <span class="ml-2">Instagram</span>
+        </a>
+      </li>
+      <li class="footer-header__item">
+        <a href="#" class="footer-header__link text-light">
+          {{ svg(sprite = "social-icons", "twitter", "footer-header__icon") }}
+          <span class="ml-2">Twitter</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer-content d-flex justify-content-center">
+    <img src="../../../gfx/images/footer/img-1.png" class="footer-content__image">
+    <img src="../../../gfx/images/footer/img-2.png" class="footer-content__image">
+    <img src="../../../gfx/images/footer/img-3.png" class="footer-content__image">
+    <img src="../../../gfx/images/footer/img-4.png" class="footer-content__image">
+    <img src="../../../gfx/images/footer/img-5.png" class="footer-content__image">
+  </div>
+
+  <div class="footer-footer pt-4 pb-2">
+    <div class="container">
+      <div class="row">
+
+        <div class="footer-footer__item col-2">
+            <img src="../../../gfx/images/footer/img-6.png" class="footer-footer__image mb-4 w-100">
+            <div class="footer-footer__social-nav mb-5">
+              <a href="#" class="footer-footer__soical-link mr-3">
+                {{ svg(sprite = "social-icons", "facebook", "footer-footer__icon mr") }}
+              </a>
+              <a href="#" class="footer-footer__soical-link mr-3">
+                {{ svg(sprite = "social-icons", "instagram", "footer-footer__icon") }}
+              </a>
+              <a href="#" class="footer-footer__soical-link">
+                {{ svg(sprite = "social-icons", "twitter", "footer-footer__icon") }}
+              </a>
+            </div>
+            <p class="footer-footer__copyright mb-0">&copy; 2023 Food notes</p>
+        </div>
+
+        <div class="footer-footer__item col-6">
+          <h3 class="footer-footer__title">About me</h3>
+          <p class="footer-foooter__par">Lorem ipsum dolor, sit amet consectetur adipisicing eli
+            t. Similique voluptatum tempore dignissimos? Exercitationem labore ullam pariatur, hic molestias qui. At nesciunt eius repellendus illum natus cupiditate quidem praesentium. Lorem, ipsum dolor.
+          </p>
+          <a href="#" class="footer-footer__link text-light-blue">
+            <u>Read more</u>
+          </a>
+        </div>
+
+        <form class="footer-footer__item col-4">
+          <h3 class="footer-footer__title mt-2 mb-3">Subscribe to see new posts</h3>
+          <input type="email" placeholder="Your email" class="footer-footer__form  w-100 mb-2">
+          <button class="btn btn-block bg-light-blue text-white rounded-0">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
