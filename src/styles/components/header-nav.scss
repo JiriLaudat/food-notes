@@ -9,14 +9,4 @@
       text-decoration: none;
     }
   }
-
-  &__icon {
-    @include size(rem(20px));
-
-    fill: theme-color('dark');
-
-    &:hover {
-      fill: theme-color('light-blue');
-    }
-  }
 }

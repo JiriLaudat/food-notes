@@ -1,0 +1,19 @@
+.social-icon {
+  @include size(rem(20px));
+
+  &_dark {
+    fill: theme-color('dark');
+
+    &:hover {
+      fill: theme-color('light-blue');
+    }
+  }
+
+  &_light {
+    fill: theme-color('light');
+
+    &:hover {
+      fill: darken(theme-color('light'), 20);
+    }
+  }
+}
