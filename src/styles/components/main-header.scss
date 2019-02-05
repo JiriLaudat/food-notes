@@ -1,4 +1,27 @@
+$bg-color: theme-color('secondary');
+$link-color: theme-color('tertiary');
+$link-hover-color: theme-color('primary');
+
 .main-header {
   padding: rem(20px) 0;
-  background-color: theme-color('light');
+  background-color: $bg-color;
+}
+
+.header-nav {
+
+  &__link {
+    color: $link-color;
+    fill: $link-color;
+
+    &:active,
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: none;
+      fill: $link-hover-color;
+    }
+  }
+
+  &__icon {
+    @include size(rem(20px));
+  }
 }

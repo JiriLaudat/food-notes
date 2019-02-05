@@ -1,53 +1,69 @@
 {% from "../helpers/svg.nunj" import svg %}
 
-<footer class="footer text-white bg-dark">
+<footer class="footer">
 
-  <div class="footer-header bg-light-blue">
+  <div class="footer-header bg-primary">
     <ul class="container list-unstyled d-flex justify-content-between my-0 py-3">
       <li class="footer-header__item">
-        <a href="#" class="footer-header__link text-light">
-            {{ svg(sprite = "social-icons", "facebook", "social-icon social-icon_light") }}
-            <span class="pl-2">Facebook</span>
+        <a href="#" class="footer-header__link">
+            {{ svg(sprite = "social-icons", "facebook", "footer-header__icon") }}
+            <span class="ml-2">Facebook</span>
         </a>
       </li>
       <li class="footer-header__item">
         <a href="#" class="footer-header__link text-light">
-          {{ svg(sprite = "social-icons", "instagram", "social-icon social-icon_light") }}
+          {{ svg(sprite = "social-icons", "instagram", "footer-header__icon") }}
           <span class="ml-2">Instagram</span>
         </a>
       </li>
       <li class="footer-header__item">
         <a href="#" class="footer-header__link text-light">
-          {{ svg(sprite = "social-icons", "twitter", "social-icon social-icon_light") }}
+          {{ svg(sprite = "social-icons", "twitter", "footer-header__icon") }}
           <span class="ml-2">Twitter</span>
         </a>
       </li>
     </ul>
   </div>
 
-  <div class="footer-content d-flex justify-content-center">
-    <img src="../../../gfx/images/footer/img-1.png" class="footer-content__image">
-    <img src="../../../gfx/images/footer/img-2.png" class="footer-content__image">
-    <img src="../../../gfx/images/footer/img-3.png" class="footer-content__image">
-    <img src="../../../gfx/images/footer/img-4.png" class="footer-content__image">
-    <img src="../../../gfx/images/footer/img-5.png" class="footer-content__image">
+  <div class="footer-content d-flex  justify-content-center">
+    <div class="footer-content__item">
+      <img src="http://satyr.io/300x200/blue" class="footer-content__image">
+    </div>
+    <div class="footer-content__item">
+      <img src="http://satyr.io/300x200/green" class="footer-content__image">
+    </div>
+    <div class="footer-content__item">
+      <img src="http://satyr.io/300x200/pink" class="footer-content__image">
+    </div>
+    <div class="footer-content__item">
+      <img src="http://satyr.io/300x200/red" class="footer-content__image">
+    </div>
+    <div class="footer-content__item">
+      <img src="http://satyr.io/300x200/yellow" class="footer-content__image">
+    </div>
+
+
+
+
+
+
   </div>
 
-  <div class="footer-footer pt-4 pb-2">
+  <div class="footer-footer bg-tertiary text-white pt-4 pb-2">
     <div class="container">
       <div class="row">
 
         <div class="footer-footer__info col-2">
-            <img src="../../../gfx/images/footer/img-6.png" class="footer-footer__image mb-4 w-100">
+              <img src="http://satyr.io/135x145/purple" class="footer-footer__image w-100 mb-4">
             <div class="footer-footer__social-nav mb-5">
               <a href="#" class="footer-footer__link mr-3">
-                {{ svg(sprite = "social-icons", "facebook", "social-icon social-icon_light") }}
+                {{ svg(sprite = "social-icons", "facebook", "footer-footer__icon") }}
               </a>
               <a href="#" class="footer-footer__link mr-3">
-                {{ svg(sprite = "social-icons", "instagram", "social-icon social-icon_light") }}
+                {{ svg(sprite = "social-icons", "instagram", "footer-footer__icon") }}
               </a>
               <a href="#" class="footer-footer__link">
-                {{ svg(sprite = "social-icons", "twitter", "social-icon social-icon_light") }}
+                {{ svg(sprite = "social-icons", "twitter", "footer-footer__icon") }}
               </a>
             </div>
             <small>&copy; 2023 Food notes</small>
@@ -58,7 +74,7 @@
           <p class="footer-foooter__par">Lorem ipsum dolor, sit amet consectetur adipisicing eli
             t. Similique voluptatum tempore dignissimos? Exercitationem labore ullam pariatur, hic molestias qui. At nesciunt eius repellendus illum natus cupiditate quidem praesentium. Lorem, ipsum dolor.
           </p>
-          <a href="#" class="footer-footer__link text-light-blue">
+          <a href="#" class="footer-footer__link text-primary">
             <u>Read more</u>
           </a>
         </div>
@@ -66,7 +82,7 @@
         <form class="footer-footer__form col-4">
           <h3 class="footer-footer__title mt-2 mb-3">Subscribe to see new posts</h3>
           <input type="email" placeholder="Your email" class="footer-footer__form  w-100 mb-2">
-          <button class="btn btn-block bg-light-blue text-white rounded-0">Subscribe</button>
+          <button class="btn btn-block bg-primary text-white rounded-0">Subscribe</button>
         </form>
       </div>
     </div>

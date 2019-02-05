@@ -9,16 +9,21 @@ $yellow:  #ffc107;
 $green:   #3ac0c7;
 $teal:    #20c997;
 $cyan:    #17a2b8;
+// Custom color variables
+$white:       #fff;
+$white-dark:  #f2f2f2;
+$grey-light:  #ccc;
+$grey-dark:   #6e6e6e;
+$blue-light:  #3ac0c7;
 
 $theme-colors: (
-  light:  #f2f2f2,
-  secondary: $pink,
+  primary: $blue-light,
+  secondary: $white-dark,
+  tertiary: $grey-dark,
   success: $green,
   info: $cyan,
   warning: $yellow,
   danger: $red,
-  dark: #6e6e6e,
-  light-blue: #3ac0c7
 );
 
 $container-max-widths: (

@@ -1,15 +1,36 @@
-.footer-header {
+$link-color: $white;
+$link-hover-color: $grey-light;
 
+.footer-header {
   &__link {
+    color: $link-color;
+    fill: $link-color;
 
     &:hover {
+      color: $link-hover-color;
       text-decoration: none;
+      fill: $link-hover-color;
     }
+  }
+
+  &__icon {
+    @include size(rem(20px));
   }
 }
 
 .footer-content {
   overflow: hidden;
+
+  &__item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-height: 200px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .footer-footer {
@@ -17,5 +38,22 @@
   &__title {
     font-family: 'Times New Roman', Times, serif;
     font-size: rem(22px);
+  }
+
+  &__icon {
+    @include size(rem(20px));
+  }
+
+  &__link {
+    fill: $link-color;
+
+    &:hover {
+      fill: $link-hover-color;
+    }
+  }
+
+  &__image {
+    max-height: rem(135px);
+    max-height: rem(145px);
   }
 }
