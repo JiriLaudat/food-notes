@@ -11,13 +11,13 @@
         </a>
       </li>
       <li class="footer-header__item">
-        <a href="#" class="footer-header__link text-light">
+        <a href="#" class="footer-header__link">
           {{ svg(sprite = "social-icons", "instagram", "footer-header__icon") }}
           <span class="ml-2">Instagram</span>
         </a>
       </li>
       <li class="footer-header__item">
-        <a href="#" class="footer-header__link text-light">
+        <a href="#" class="footer-header__link">
           {{ svg(sprite = "social-icons", "twitter", "footer-header__icon") }}
           <span class="ml-2">Twitter</span>
         </a>
@@ -26,21 +26,11 @@
   </div>
 
   <div class="footer-content d-flex  justify-content-center">
-    <div class="footer-content__item">
-      <img src="http://satyr.io/300x200/blue" class="footer-content__image">
-    </div>
-    <div class="footer-content__item">
-      <img src="http://satyr.io/300x200/green" class="footer-content__image">
-    </div>
-    <div class="footer-content__item">
-      <img src="http://satyr.io/300x200/pink" class="footer-content__image">
-    </div>
-    <div class="footer-content__item">
-      <img src="http://satyr.io/300x200/red" class="footer-content__image">
-    </div>
-    <div class="footer-content__item">
-      <img src="http://satyr.io/300x200/yellow" class="footer-content__image">
-    </div>
+    <div class="footer-content__item" style="background-image: url('http://satyr.io/300x200/blue');"></div>
+    <div class="footer-content__item" style="background-image: url('http://satyr.io/300x200/pink');"></div>
+    <div class="footer-content__item" style="background-image: url('http://satyr.io/300x200/yellow');"></div>
+    <div class="footer-content__item" style="background-image: url('http://satyr.io/300x200/red');"></div>
+    <div class="footer-content__item" style="background-image: url('http://satyr.io/300x200/green"></div>
 
 
 

@@ -1,0 +1,22 @@
+.footer-header {
+
+  $link-color: $white;
+  $link-hover-color: $grey-light;
+
+  &__link {
+    display: flex;
+    color: $link-color;
+    fill: $link-color;
+
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: none;
+      fill: $link-hover-color;
+    }
+  }
+
+  &__icon {
+    @include size(rem(20px));
+  }
+}
+

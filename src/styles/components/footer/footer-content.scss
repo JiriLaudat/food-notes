@@ -1,0 +1,19 @@
+.footer-content {
+
+  $image-height: rem(200px);
+  $image-min-width: rem(300px);
+
+  overflow: hidden;
+
+  &__item {
+    flex: 1 0 $image-min-width;
+    height: $image-height;
+    background: no-repeat center;
+    background-size: cover;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+}

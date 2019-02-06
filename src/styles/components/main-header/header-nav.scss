@@ -1,13 +1,6 @@
-$bg-color: theme-color('secondary');
-$link-color: theme-color('tertiary');
-$link-hover-color: theme-color('primary');
-
-.main-header {
-  padding: rem(20px) 0;
-  background-color: $bg-color;
-}
-
 .header-nav {
+  $link-color: theme-color('tertiary');
+  $link-hover-color: theme-color('primary');
 
   &__link {
     color: $link-color;
