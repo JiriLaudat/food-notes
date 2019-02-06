@@ -1,0 +1,30 @@
+.footer-footer {
+
+  $link-color: $white;
+  $link-hover-color: $grey-light;
+  $title-font-size: map-get($font-sizes, lg);
+  $image-max-width: rem(135px);
+  $image-max-height: rem(145px);
+
+  &__title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: $title-font-size;
+  }
+
+  &__icon {
+    @include size(rem(20px));
+  }
+
+  &__link {
+    fill: $link-color;
+
+    &:hover {
+      fill: $link-hover-color;
+    }
+  }
+
+  &__image {
+    max-width: $image-max-width;
+    max-height: $image-max-height;
+  }
+}

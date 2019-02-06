@@ -1,10 +1,13 @@
 .main-banner {
+  $font-color: $white;
+  $title-font-size: map-get($font-sizes, xl);
+
   height: 50vh;
   background: purple no-repeat center;
   background-size: cover;
-}
 
-.main-banner__title {
-  font-size: rem(72px);
-  color: theme-color('primary');
+  &__title {
+    font-size: $title-font-size;
+    color: $font-color;
+  }
 }
