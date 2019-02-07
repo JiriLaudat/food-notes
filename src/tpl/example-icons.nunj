@@ -22,8 +22,6 @@
     {# Icon from custom sprite #}
     {{ svg(sprite = "demo", "baby", "icon-maroon") }}
 
-    {{ svg("test-bulb", "icon-purple") }}
-
 
 
 {% endblock %}

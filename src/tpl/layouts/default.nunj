@@ -36,7 +36,7 @@
     {% include "../components/cookie-law.nunj" %}
 
     {# Main header #}
-    {% include 'components/main-header/index.nunj' %}
+    {% include '../components/main-header/index.nunj' %}
 
     {# Main content of the page #}
     <main class="content">
@@ -46,7 +46,7 @@
     </main>
 
     {# Footer #}
-    {% include 'components/footer.nunj' %}
+    {% include '../components/footer.nunj' %}
 
     {# Scripts #}
     <script>

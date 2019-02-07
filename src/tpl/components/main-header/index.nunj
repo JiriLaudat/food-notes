@@ -1,6 +1,14 @@
+{% from "helpers/svg.nunj" import svg %}
 <header class="main-header">
   <div class="container d-flex">
     {% include './header-nav.nunj' %}
     {% include './header-nav-social.nunj' %}
+
+    <div class="header-nav-burger ml-auto d-md-none">
+      <a href="#" class="header-nav__link mr-4">
+        {{ svg("burger-icon", "header-nav__icon") }}
+      </a>
+    </div>
+
   </div>
 </header>

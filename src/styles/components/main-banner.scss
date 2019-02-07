@@ -1,13 +1,22 @@
 .main-banner {
-  $font-color: $white;
-  $title-font-size: map-get($font-sizes, xl);
+  $title-font-color: $white;
+  $title-font-size-lg: map-get($font-sizes, lg);
+  $title-font-size-xl: map-get($font-sizes, xl);
 
-  height: 50vh;
+  height: 15vh;
   background: purple no-repeat center;
   background-size: cover;
 
+  @include media-breakpoint-up(md) {
+    height: 50vh;
+  }
+
   &__title {
-    font-size: $title-font-size;
-    color: $font-color;
+    font-size: $title-font-size-lg;
+    color: $title-font-color;
+
+    @include media-breakpoint-up(md) {
+      font-size: $title-font-size-xl;
+    }
   }
 }
