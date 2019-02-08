@@ -5,7 +5,7 @@
     {% include './header-nav-social.nunj' %}
 
     <div class="header-nav-burger ml-auto d-md-none">
-      <a href="#" class="header-nav__link mr-4">
+      <a href="#" class="header-nav__link">
         {{ svg("burger-icon", "header-nav__icon") }}
       </a>
     </div>
